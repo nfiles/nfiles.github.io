@@ -1,2 +1,6 @@
 # nfiles.github.io
-nfiles.github.io website
+This is a super exciting website!
+
+Check me out at:
+- Twitter: https://twitter.com/nwfiles
+- Keybase: https://keybase.io/nfiles
