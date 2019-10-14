@@ -1,7 +1,23 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Nathan Files Blog"
+title = "nfiles.dev"
+description = "hi"
+# theme = "tale"
+# theme = "minimo"
 theme = "simple-hugo-theme"
+
+[params.info]
+  description = "doesn't have a website"
+  title404 = "Nothing to see here!"
+
+[params.sidebar]
+  enable = true
+
+[params.widgets]
+  # header = ["breadcrumbs"]
+  # homepage = ["recent_posts"]
+  sidebar = ["about","sidebar_menu","taxonomy_cloud"]
+  footer = ["social_menu"]
 
 # Taxonomies
 [taxonomies]
@@ -11,31 +27,56 @@ theme = "simple-hugo-theme"
 # Menu
 [menu]
   # Header
+  # [[menu.main]]
+  #   url = "/"
+  #   name = "home"
+  #   weight = -10
   [[menu.main]]
     url = "/posts/"
-    name = "blog"
-    weight = 1
+    name = "posts"
+    weight = 10
+  # [[menu.main]]
+  #   url = "/about/"
+  #   name = "about"
+  #   weight = 20
   [[menu.main]]
-    url = "/about/"
-    name = "about"
-    weight = 2
-  [[menu.main]]
-    url = "/contact/"
-    name = "contact"
-    weight = 3
+    url = "/projects/"
+    name = "projects"
+    weight = 25
+  # [[menu.main]]
+  #   url = "/contact/"
+  #   name = "contact"
+  #   weight = 30
 
   # Footer
   [[menu.footer]]
     url = "https://github.com/nfiles"
     name = "GitHub"
-    weight = 1
+    weight = 10
   [[menu.footer]]
     url = "/index.xml"
     name = "RSS"
-    weight = 2
+    weight = 20
 
 [permalinks]
   post = "/post/:year/:month/:title/"
 
 [params]
   datefmt = "Jan 2, 2006"
+
+# [params.copyright]
+#   prefix = ""
+#   holder = "Nathan Files"
+#   startYear = "2019"
+#   suffix = ""
+
+[params.social]
+  # codepen = "MunifTanjim"
+  email = "contact@example.com"
+  # facebook = "MunifTanjim"
+  github = "nfiles"
+  # gitlab = "MunifTanjim"
+  # instagram = "MunifTanjim"
+  linkedin = "nathan.files"
+  twitter = "nwfiles"
+  # google_scholar = "qc6CJjYAAAAJ"
