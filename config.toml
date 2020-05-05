@@ -31,10 +31,10 @@ theme = "simple-hugo-theme"
   #   url = "/"
   #   name = "home"
   #   weight = -10
-  [[menu.main]]
-    url = "/posts/"
-    name = "posts"
-    weight = 10
+  # [[menu.main]]
+  #   url = "/posts/"
+  #   name = "posts"
+  #   weight = 10
   # [[menu.main]]
   #   url = "/about/"
   #   name = "about"

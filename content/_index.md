@@ -2,4 +2,4 @@
 title: 'home'
 ---
 
-*I haven't written this part yet*
+Nathan's website for Nathan.
